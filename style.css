@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: 'Inter-VariableFont_sintsght';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root{
+    --black: #141414;
+    --dark-grey: #1F1F1F;
+    --grey: #333333;
+    --white: #FFFFFF;
+    --neon-green: #C4F82A;
+    --default-font: 'Inter-VariableFont_sintsght';
+}
+body{
+    background-color: var(--black);
+}
+
+/* ************************** */
+/* MOBILE FIRST STYLING GUIDE */
+/* ************************** */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50%;
+    background-color: var(--dark-grey);
+}
+
+img{
+
+}
+
+h1.nameSpace{
+
+}
+
+h2.location{
+
+}
+
+h3.description{
+
+}
+
+/* LINKS */
+.links{
+
+}
