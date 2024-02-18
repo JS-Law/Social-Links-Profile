@@ -19,6 +19,9 @@ html{
 }
 body{
     background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* ************************** */
@@ -28,20 +31,31 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50%;
+    margin-top: 30%;
     background-color: var(--dark-grey);
+    /* padding: 2rem; */
+    padding-block: 2rem;
+    border-radius: .7rem;
+    max-width: 327px;
+    color: var(--white);
+    font-family: var(--default-font);
+    
 }
 
 img{
-
+    max-width: 88px;
+    border-radius: 50%;
 }
 
 h1.nameSpace{
-
+    margin-block-start: 1.5rem;
+    font-weight: 400;
+    font-size: 2rem;
 }
 
 h2.location{
-
+    color: var(--neon-green);
+    font-size: 1rem;
 }
 
 h3.description{
