@@ -34,20 +34,20 @@ btnThree.addEventListener('ontouch', () => {
 
 
 // Twitter
-btnThree.addEventListener('click', () => {
+btnFour.addEventListener('click', () => {
     window.location.href = 'https://twitter.com/justdevposts';
 });
 
-btnThree.addEventListener('ontouch', () => {
+btnFour.addEventListener('ontouch', () => {
     window.location.href = 'https://twitter.com/justdevposts';
 });
 
 
 // Instagram
-btnThree.addEventListener('click', () => {
+btnFive.addEventListener('click', () => {
     window.location.href = 'https://www.instagram.com/bluecollarjeff_/?igsh=b3gwMXJyMGI4NjEw&utm_source=qr';
 });
 
-btnThree.addEventListener('ontouch', () => {
+btnFive.addEventListener('ontouch', () => {
     window.location.href = 'https://www.instagram.com/bluecollarjeff_/?igsh=b3gwMXJyMGI4NjEw&utm_source=qr';
 });
