@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/JS-Law/Social-Links-Profile)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://js-law.github.io/Social-Links-Profile/)
 
 ## My process
 
