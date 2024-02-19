@@ -33,7 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 7rem;
     background-color: var(--dark-grey);
     padding-block: 2rem;
     border-radius: .7rem;
@@ -91,7 +91,7 @@ a{
     margin-top: 7rem;
     font-size: 11px; 
     text-align: center; 
-    position: fixed; 
+    /* position: absolute;  */
     left: 0;
     right: 0; 
     bottom: 0;
@@ -102,4 +102,15 @@ a{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+button.socialLink:hover{
+    background-color: var(--neon-green);
+    color: var(--grey);
+}
+@media (min-width: 400px) {
+    .content{
+        max-width: 384px;
+        width: 384px;
+    }
 }
