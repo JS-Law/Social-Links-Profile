@@ -82,10 +82,7 @@ button{
     font-size: .9rem;
     color: var(--white);
 }
-a{
-    color: var(--white);
-    
-}
+
 
 .attribution { 
     margin-top: 7rem;
@@ -97,11 +94,12 @@ a{
     bottom: 0;
     text-align: center;
     padding: 20px; 
+    color: var(--white);
 }
 
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--neon-green); 
 }
 
 button.socialLink:hover{
